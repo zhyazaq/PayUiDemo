@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PassWordEditText" >
+        <!--绘制密码框的个数-->
+        <attr name="passwordNumber" format="integer"/>
+        <!--密码圆点的半径大小-->
+        <attr name="passwordCircleRadius" format="dimension"/>
+        <!--密码圆点的颜色-->
+        <attr name="passwordColor" format="color"/>
+        <!--分割线的颜色-->
+        <attr name="lineColor" format="color"/>
+        <!--分割线的大小-->
+        <attr name="lineSize" format="dimension"/>
+        <!--背景边框的颜色-->
+        <attr name="bgColor" format="color"/>
+        <!--背景边框的大小-->
+        <attr name="bgCorner" format="dimension"/>
+        <!--是否展示密码-->
+        <attr name="isShowNum" format="boolean"/>
+        <!--是否边框需要圆角-->
+        <attr name="useBgCorner" format="boolean"/>
+        <!--背景的大小-->
+        <attr name="bgSize" format="dimension"/>
+    </declare-styleable>
+</resources>

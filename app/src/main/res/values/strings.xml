@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PayUiDemo</string>
+    <!--密码键盘-->
+    <string name="one_keyboard">1\n  </string>
+    <string name="two_keyboard">2\nABC</string>
+    <string name="three_keyboard">3\nDEF</string>
+    <string name="four_keyboard">4\nGHI</string>
+    <string name="five_keyboard">5\nJKL</string>
+    <string name="six_keyboard">6\nMNO</string>
+    <string name="seven_keyboard">7\nPQRS</string>
+    <string name="eight_keyboard">8\nTUV</string>
+    <string name="nine_keyboard">9\nWXYZ</string>
+    <string name="zero_keyboard">0\n  </string>
+    <color name="text_ffffff">#ffffff </color>
+</resources>

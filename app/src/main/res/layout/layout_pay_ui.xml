@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_pay_ui_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px130">
+
+        <ImageView
+            android:paddingLeft="@dimen/px42"
+            android:id="@+id/imag_back_pay_ui"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/backh" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="请输入验证码"
+            android:textColor="#2F2B08"
+            android:textSize="@dimen/px42" />
+    </RelativeLayout>
+
+
+
+    <TextView
+        android:id="@+id/tv_content_pay_ui"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px130"
+        android:layout_marginTop="@dimen/px42"
+        android:gravity="center"
+        android:text="已发送至132****2535，请注意查收，59s后可重新发送"
+        android:textColor="@color/text_9"
+        android:textSize="@dimen/px32" />
+
+    <rnjf.com.payuidemo.payUI.PassWordEditText
+        android:id="@+id/passwordview"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px142"
+        android:layout_marginBottom="@dimen/px20"
+        android:layout_marginLeft="@dimen/px42"
+        android:layout_marginRight="@dimen/px42"
+        android:layout_marginTop="@dimen/px42"
+        android:background="@null"
+        android:padding="@dimen/px20"
+        app:bgCorner="@dimen/px6"
+        app:isShowNum="false" />
+
+    <rnjf.com.payuidemo.payUI.PayKeyBoard
+        android:id="@+id/cus_key_board"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/px42">
+
+    </rnjf.com.payuidemo.payUI.PayKeyBoard>
+
+</LinearLayout>
